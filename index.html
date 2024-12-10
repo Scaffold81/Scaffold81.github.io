@@ -184,15 +184,15 @@
         //script.onload = () => { CreateUnityLoader();   };
         document.body.appendChild(script);
 
-        window.zappar.permission_request_ui_promise().then(WaitForZCVLoad);
+       // window.zappar.permission_request_ui_promise().then(WaitForZCVLoad);
 
-        function WaitForZCVLoad() {
-            if (zappar.loaded()) {
+       // function WaitForZCVLoad() {
+            //if (zappar.loaded()) {
                 CreateUnityLoader();
                 return;
-            }
-            setTimeout(WaitForZCVLoad, 500);
-        }
+            //}
+           // setTimeout(WaitForZCVLoad, 500);
+       // }
 
         function CreateUnityLoader() {
             createUnityInstance(canvas, config, (progress) => {
