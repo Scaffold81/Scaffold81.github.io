@@ -1,0 +1,16 @@
+{
+"companyName": "Gip Group",
+"productName": "GipGroupAr",
+"productVersion": "0.1",
+"dataUrl": "fe6fcc0682f32941dee1a69baff7a889.unityweb",
+"wasmCodeUrl": "54f78134626d6c37df42b350e0ed4e57.unityweb",
+"wasmFrameworkUrl": "e46f6c7f2b40f5e1ccc305306c0f1b3b.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.40f1"
+}
